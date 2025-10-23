@@ -5,7 +5,7 @@ House Security System Using Raspberry Pi Pico W, Mini PIR sensor, 16x2 LCD with 
 
 A sophisticated home security system built on Raspberry Pi Pico W featuring multi-sensor monitoring, web interface, keypad access control, and real-time alerts.
 
-## 🚀 Advanced Features
+## Advanced Features
 
 - **Multi-Sensor Integration**: Door, window, and motion detection with MC-38 magnetic sensors and MH-SR602 PIR
 - **Web Dashboard**: Real-time monitoring via responsive web interface
@@ -16,7 +16,7 @@ A sophisticated home security system built on Raspberry Pi Pico W featuring mult
 - **Security Codes**: Auto-generated 5-digit codes with expiration
 - **LCD Status Display**: 16x2 I2C LCD for local status monitoring
 
-## 🛠 Hardware Components
+## Hardware Components
 
 ### Core Components
 - Raspberry Pi Pico W
@@ -42,14 +42,14 @@ A sophisticated home security system built on Raspberry Pi Pico W featuring mult
 | Keypad Cols | GP10-12 | Pins 14-16 | 4x3 Matrix Columns |
 | Arm Button | GP13 | Pin 17 | System Arm/Disarm |
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Raspberry Pi Pico W with MicroPython firmware
 - `pico_i2c_lcd` library for LCD control
 - Network connection for NTP and web interface
 - Thonny IDE or similar development environment
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### 1. Hardware Assembly
 
@@ -93,7 +93,7 @@ A sophisticated home security system built on Raspberry Pi Pico W featuring mult
 4. Web server starts automatically
 5. Test sensors during initialization
 
-## 🎮 System Operation
+## System Operation
 
 ### Arming the System
 
@@ -114,7 +114,7 @@ A sophisticated home security system built on Raspberry Pi Pico W featuring mult
 - **Motion Detection**: When system is armed and entry points secure
 - **Multiple Failed Codes**: After 3 incorrect attempts
 
-## 🌐 Web Interface
+## Web Interface
 
 Access the system via: `http://[PICO_IP_ADDRESS]:80`
 
@@ -126,7 +126,7 @@ Access the system via: `http://[PICO_IP_ADDRESS]:80`
 - System information and statistics
 - Auto-refresh every 30 seconds
 
-## ⚙️ Configuration Options
+## Configuration Options
 
 ### Security Settings
 ```python
@@ -145,7 +145,7 @@ BUZZER_PIN = 5
 ARM_BUTTON_PIN = 13
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 SecKeja/
@@ -155,7 +155,7 @@ SecKeja/
 └── dependencies.txt       # Required libraries
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -185,7 +185,7 @@ SecKeja/
 - **Buzzer Patterns**: Distinct sounds for different events
 - **Web Dashboard**: Comprehensive system overview
 
-## 🔄 Advanced Features
+## Advanced Features
 
 ### Smart Security Logic
 - Pre-arm safety checks prevent arming with open entry points
@@ -199,7 +199,7 @@ SecKeja/
 - Security code management
 - System statistics and event logging
 
-## 🚨 Safety & Security Notes
+## Safety & Security Notes
 
 - This is an educational project - not for critical security applications
 - Always test system functionality before relying on it
@@ -207,7 +207,7 @@ SecKeja/
 - Regular maintenance and testing recommended
 - Consider battery backup for power outages
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please feel free to submit pull requests or open issues for:
 - Additional sensor support
@@ -215,11 +215,11 @@ Contributions welcome! Please feel free to submit pull requests or open issues f
 - Improved security protocols
 - Bug fixes and optimizations
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see details in the LICENSE file.
 
 
-**Built with ❤️ using Raspberry Pi Pico W and MicroPython**
+**Built with using Raspberry Pi Pico W and MicroPython**
 
 *For technical support or questions, please refer to the code comments or create an issue in the project repository.*
