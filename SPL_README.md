@@ -58,7 +58,7 @@ Install the appropriate library for the DS1302 RTC module using the Arduino Libr
 
 The DS1302 chip needs to be set with the current time once. You must upload a separate, simple sketch (not the main one) to perform this initialization.
 
-### 3. Main Sketch (`Sentinel-4.ino`)
+### 3. Main Sketch (`SPL.ino`)
 
 The main code is structured to first check the time and then process sensor logic only during the active window.
 
